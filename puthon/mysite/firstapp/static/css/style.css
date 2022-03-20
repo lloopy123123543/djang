@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+body{
+    background-color: crimson;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_block1{
+    width: 70%;
+    height: 70%;
+    background: url("./img/tg.png");
+    background-size: cover;
+
+}
+.header_block2{
+    width: 71%;
+    height: 70%;
+    background: url("./img/vk.png");
+    background-size: cover;
+}
+.header_block3{
+    width: 70%;
+    height: 72%;
+    background: url("./img/yut.png");
+    background-size: cover;
+}
+.header_block4{
+    width: 70%;
+    height: 70%;
+    background: url("./img/tg.png");
+    background-size: cover;
+}
+.for_header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    background-color: crimson;
+    position: fixed;
+    border-radius: 0px 0px 20px 20px;
+}
+.header_block{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    background-color: crimson;  
+}
+.header_block:hover{
+    background-color: #5662F6;
+}
+.header_block_near{
+    border-radius: 0px 0px 0px 20px;
+}
+.header_block_near_2{
+    border-radius: 0px 0px 20px 0px;
+}
+.container{
+    cursor: default;
+    max-width: 1920px;
+    margin: auto;
+    font-family: 'Supermercado One', cursive;
+
+}
+.main_menu{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.discord{
+
+}
+.main_menu_logotype{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    background-color: brown;
+    background: url("./img/8063eaae90b04f2d.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.greeting{
+    width: 60%;
+    height: 100%;
+    background: url("./img/3053366.png");
+    background-size: cover;
+
+}
+.main_menu_title{
+    margin-top: 22%;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    font-family: 'Supermercado One', cursive;
+}
+.for_btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Supermercado One', cursive;
+    height: 10%;
+}
+.main_menu_button{
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.main_menu_button:hover{
+    background-color: #5662F6;
+    transition: .2s;
+}
+.main_menu_button_text{
+    color: white;
+    font-size: 30px;
+
+}
+.about{
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+}
+.about_title{
+    text-align: center;
+    font-size: 70px;
+    color: crimson;
+}
+.bot{
+    width: 100%;
+    height: 800px;
+    background-color: #1E1F1C;
+    background: url("./img/bg.png");
+  background-size: cover;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.bot_block{
+    margin-top: 20px;
+    width: 350px;
+    height: 350px;
+    background-color: #36393F;
+    border-radius: 10px 10px 0px 0px;
+    background: url("./img/ad.jpg");
+}
+.bot_block_bg{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bot_block_bg:hover{
+    width: 100%;
+    height: 300px;
+    transition: 0.3s;
+
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bot_block_place_title{
+    width: 100%;
+    height: 50px;
+    background-color: crimson;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bot_block_title{
+    font-size: 30px;
+
+}
+.bot_block_place_text{
+
+}
+.bot_block_text{
+
+}
+.bot_cont{
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+}
+.bot_cont1{
+    block-size: 0%;
+}
+.we{
+    width: 100%;
+    height: 780px;
+    background-color: cornflowerblue;
+}
+.cost{
+    height: 40px;
+}
+.we_header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: beige;
+    
+}
+.we_title{
+    display: flex;
+}
+.sus{
+    animation-name: suss;
+    animation-duration: 1s;
+    animation-delay: -0.2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes suss{
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.sus1{
+    animation-name: suss;
+    animation-delay: -0.1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+.sus2{
+    animation-name: suss;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+.we_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.we_body_text{
+    width: 70%;
+    height: 100%;
+    font-size: 35px;
+    color: beige;
+}
+.line{
+    width: 30%;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+}
+.we_line{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: cornflowerblue;
+    justify-content: center;
+    align-items: center;
+}
+.bot_block_admin{
+    background: url("./img_log/kolya.jpg");
+    background-size: cover;
+}
+.bot_block_generalModer{
+    background: url("./img_log/igor.jpg");
+    background-size: cover;
+}
+.bot_block_moder_1{
+    background: url("./img_log/Timur.jpg");
+
+    background-size: cover;
+}
+.bot_block_moder_2{
+    background: url("./img_log/ilya.jpg");
+    background-size: cover;
+}
+.bot_block_place_title_admin{
+    background-color: goldenrod;
+}
+.bot_block_place_title_generalModer{
+    background-color: crimson;
+}
+.bot_block_place_title_moder{
+    background-color: darkcyan;
+}
+.bot_block_bg{
+    width: 100%;
+    height: 300px;
+    border-radius: 0px 0px 0px 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bot_block_bg_text{
+    font-size: 60px;
+    color: white;
+}
